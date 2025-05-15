@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import GeneralInfo from './components/GeneralInfo'
+import Education from './components/Education'
 
 export default function App() {
   
@@ -10,7 +11,9 @@ export default function App() {
     </header>
     
     <main>
-    
+      <h2> Education </h2>
+      <hr />
+      <Education/>
     </main>
     </>
   )
